@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+  <title>Invoice</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <table class="header-table">
+      <tr>
+        <th class="header-table-section1">
+          <div class="logo">
+            <p class="logo-detail">LOGO</p>
+          </div>
+        </th>
+        <th class="header-table-section2">
+          <div class="provider-wrapper">
+            <h3>SC COMPANIA SRL</h3>
+            <p class="provider-detail">31245678&nbsp;&nbsp;<span class="detail">Sole Registration Code</span></p>
+            <p class="provider-detail">F45/67/89898&nbsp;&nbsp;<span class="detail">Reg. No.</span></p>
+            <p class="provider-detail">Str. Nicolae Grigorescu, nr. 300</p>
+            <p class="provider-detail">hello&commat;me.com</p>
+          </div>
+        </th>
+        <th class="header-table-section3">
+          <div class="invoice-detail-wrapper">
+            <div class="title-invoice-box">
+              <h2 class="title-invoice">INVOICE</h2>
+            </div>
+            <div class="invoice-id">
+              <p>number&nbsp;&nbsp;&nbsp;<span class="invoice-detail">1287612</span></p>
+              <p>date&nbsp;&nbsp;&nbsp;<span class="invoice-detail">20 Febr 2016</span></p>
+              <p>due&nbsp;&nbsp;&nbsp;<span class="invoice-detail">20 Mar 2016</span></p>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </table>
+    <table class="client-table">
+      <tr>
+        <th class="client-table-section1">
+          <div>
+            <h3 class="title-client">CLIENT</h3>
+            <h3>SC COMPANIA SRL</h3>
+            <p class="provider-detail">31245678&nbsp;&nbsp;<span class="detail">Sole Registration Code</span></p>
+            <p class="provider-detail">F45/67/89898&nbsp;&nbsp;<span class="detail">Reg. No.</span></p>
+            <p class="provider-detail">Str. Nicolae Grigorescu, nr. 300</p>
+            <p class="provider-detail">hello@me.com</p>
+          </div>
+        </th>
+        <th class="client-table-section2">
+          <div class="total">
+            <h2 class="total-amount">TOTAL&nbsp;&nbsp;&nbsp;&nbsp;<span class="amount">18712 RON</span></h2>
+          </div>
+      </tr>
+    </table>
+    <table class="invoiced-products">
+      <tr class="table-head">
+        <th class="table-heading">No.</th>
+        <th class="table-heading">Description/Product</th>
+        <th class="table-heading">Qty.</th>
+        <th class="table-heading">Price</th>
+        <th class="table-heading">VAT</th>
+        <th class="table-heading">Subtotal</th>
+      </tr>
+      <tr class="table-body">
+        <td class="reference-number">1</td>
+        <td class="product-description">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</td>
+        <td class="quantity">1</td>
+        <td class="invoiced-amount">RON 20.5
+        <td class="invoiced-amount">RON 2.3</td>
+        <td class="invoiced-amount">RON 20.8</td>
+        <div class="explanation"><p>price per unit: RON 20.5/VAT per unit: RON 2.3</p></div>
+</tr>
+      <tr class="table-body">
+        <td class="reference-number">2</td>
+        <td class="product-description">Et harum quidem rerum facilis est et expedita distinctio.</td>
+        <td class="quantity">1</td>
+        <td class="invoiced-amount">RON 20.5</td>
+        <td class="invoiced-amount">RON 2.3</td>
+        <td class="invoiced-amount">RON 20.8</td>
+        <div class="explanation position2"><p>price per unit: RON 20.5/VAT per unit: RON 2.3</p></div>
+      </tr>
+      <tr class="table-body">
+        <td class="reference-number">3</td>
+        <td class="product-description">Et harum quidem rerum facilis est et expedita distinctio.</td>
+        <td class="quantity">1</td>
+        <td class="invoiced-amount">RON 20.5</td>
+        <td class="invoiced-amount">RON 2.3</td>
+        <td class="invoiced-amount">RON 20.8</td>
+        <div class="explanation position3"><p>price per unit: RON 20.5/VAT per unit: RON 2.3</p></div>
+      </tr>
+      <tr>
+        <td colspan="2"></td>
+        <td style="vertical-align: top;" colspan="3">TOTAL (without VAT)</td>
+        <td class="invoiced-amount">RON 36</td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;" colspan="2"></td>
+        <td style="vertical-align: top;" colspan="3">VAT</td>
+        <td class="invoiced-amount">RON 3.5</td>
+      </tr>
+      <tr>
+        <td colspan="2"></td>
+        <td colspan="3">TOTAL DUE</td>
+        <td class="invoiced-amount">RON 39.5</td>
+      </tr>
+    </table>
+    <table class="payment-details">
+      <tr>
+        <td class="section">
+          <h3 class="title-payment">PAYMENT DETAILS</h3>
+          <p class="payment-description">We accept payment via bank transfer to RO 81918927916361383 at ING BANK. We accept cash payments. Call at 0723.456.789 or email at hello&commat;me.com for details. We accept credit cards at deliver at our offices.
+        </td>
+        <td rowspan="2">
+          <div class="greeting-box">
+          <span class="greeting">THANK YOU</span>
+        </div>
+
+        </td>
+      </tr>
+      <tr>
+        <td class="section">
+          <h3 class="contacts">CONTACTS</h3>
+          <p class="contacts-description">Call us as 0723.456.789 or email us at me.com.
+            You can also contact us by Facebook at facebook.com/page.
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

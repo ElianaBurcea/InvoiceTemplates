@@ -1,0 +1,193 @@
+body {
+  line-height: 0.2;
+  font-family: 'Oxygen', sans-serif;
+}
+#container {
+  width: 750px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.header {
+  height: 160px;
+}
+.header-table {
+  height: 150px;
+  width: 750px;
+  text-align: left;
+  border-bottom: 1.5px solid #4A90E2;
+  -webkit-border-horizontal-spacing: 0;
+  -webkit-border-vertical-spacing: 0;
+}
+.header-table-section1{
+  width: 160px;
+  height: 150px;
+}
+.logo {
+  height: 120px;
+  width: 160px;
+  background-color: #D8D8D8;
+  display: table-cell;
+  vertical-align: middle;
+}
+.logo-detail{
+  text-align: center;
+  color: red;
+  font-size: 30px;
+}
+.header-table-section2 {
+  width: 350px;
+  height: 150px;
+  padding: 0;
+}
+.provider-wrapper{
+  height: 120px;
+  padding-left: 3%;
+  top:4%;
+}
+.provider-detail {
+  font-weight: lighter;
+}
+.detail {
+  color: #9B9F9B;
+  font-size: 12px;
+}
+.header-table-section3{
+  height: 150px;
+  padding-top: 2%;
+}
+.invoice-detail-wrapper {
+  height: 150px;
+  padding: 0;
+}
+.title-invoice-box {
+  height: 35px;
+  background-color: #4A90E2;
+  color: #fff;
+}
+.title-invoice {
+  font-size: 20px;
+  padding: 6%;
+  margin-left: -4px;
+  -webkit-margin-before: 0.5em;
+}
+.invoice-id {
+  line-height: 0.7;
+}
+.invoice-detail {
+  font-size: 22px;
+  font-weight: bolder;
+}
+.client-table {
+  height: 150px;
+  width: 750px;
+  text-align: left;
+  -webkit-border-horizontal-spacing: 0;
+  -webkit-border-vertical-spacing: 0;
+}
+.client-table-section1 {
+  width: 450px;
+}
+.title-client {
+  color: #4A90E2;
+}
+.client-table-section2 {
+  position: relative;
+}
+.total {
+  width: 250px;
+  height: 30px;
+  border: 1px solid #4A90E2;
+  position: absolute;
+  right: 0px;
+  top: 6%;
+}
+.total-amount{
+  color: #4A90E2;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+}
+.amount {
+  color: black;
+}
+.invoiced-products {
+  height: 400px;
+  line-height: 1.5;
+  border-collapse: collapse;
+  position: relative;
+}
+.invoiced-products .table-head {
+  border-bottom: 1px solid #4A90E2;
+}
+.invoiced-products .table-body {
+  border-bottom: 1px solid #A4C7F0;
+  border-spacing: 2px;
+}
+.table-heading {
+  font-size: 16px;
+  font-weight: 700;
+}
+.explanation {
+  height: 30px;
+  width: 350px;
+  position: absolute;
+  top: 42%;
+  left:50%;
+}
+.explanation p {
+  font-size: 12px;
+  color: #A79FBE;
+}
+.position2 {
+  position: absolute;
+  top: 53%;
+  left:50%;
+}
+.position3 {
+  position: absolute;
+  top: 60%;
+  left:50%;
+}
+.product-description {
+  width: 350px;
+  vertical-align: top;
+}
+.invoiced-amount {
+  width: 120px;
+  text-align: center;
+  vertical-align: top;
+  font-weight: 700;
+}
+.quantity, .reference-number{
+  text-align: center;
+  vertical-align: top;
+}
+.payment-details {
+  height: 250px;
+  width: 750px;
+}
+.section{
+  width:500px;
+  line-height: 1.5;
+  padding-right: 5%;
+}
+.title-payment, .contacts {
+  color: #4A90E2;
+}
+.title-payment, .contacts, .payment-description, .contacts-description {
+  margin: 0;
+}
+.greeting-box {
+  height: 150px;
+  width: 200px;
+  margin: 0 auto;
+  display: table;
+  vertical-align: middle;
+}
+.greeting {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}

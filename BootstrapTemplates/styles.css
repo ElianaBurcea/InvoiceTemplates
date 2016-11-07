@@ -1,0 +1,73 @@
+body {
+  line-height: 0.2;
+  font-family: 'Oxygen', sans-serif;
+}
+#invoice-body{
+  width: 800px;
+  margin: 0 auto;
+}
+.invoice-header{
+  height: 150px;
+  width: 800px;
+  background-color: #fff;
+  padding-top: 2%;
+}
+.segment-one{
+  height: 150px;
+  width: 500px;
+}
+.logo {
+  height: 100px;
+  width: 140px;
+  background-color: #D8D8D8;
+  display: table-cell;
+  vertical-align: middle;
+}
+.logo-detail{
+  text-align: center;
+  color: red;
+  font-size: 30px;
+}
+.provider-wrapper{
+  height: 150px;
+  width: 300px;
+  line-height: 0.4;
+  margin-top: -100px;
+  margin-left: 35%;
+}
+.provider-detail {
+  font-weight: lighter;
+}
+.detail {
+  color: #9B9F9B;
+  font-size: 12px;
+}
+.segment-two{
+  height: 150px;
+  width: 300px;
+
+}
+.invoice-detail-wrapper {
+  height: 150px;
+  padding: 0;
+}
+.title-invoice-box {
+  height: 35px;
+  width: 200px;
+  background-color: #4A90E2;
+  color: #fff;
+}
+.title-invoice {
+  font-size: 20px;
+  margin-left: -4px;
+  -webkit-margin-before: 0.5em;
+  padding: 3%;
+  margin-top: 0;
+}
+.invoice-id {
+  line-height: 0.7;
+}
+.invoice-detail {
+  font-size: 22px;
+  font-weight: bolder;
+}
